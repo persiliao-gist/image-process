@@ -1,0 +1,25 @@
+{
+  "name": "imageflip",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "An simple image flip demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tap --reporter=list --watch"
+  },
+  "author": "Persi.Liao",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fastify": "^4.0.0-rc.2",
+    "gm": "^1.23.1",
+    "lodash": "^4.17.21",
+    "sharp": "^0.30.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "pino-pretty": "^7.6.1",
+    "tap": "^16.2.0"
+  }
+}
